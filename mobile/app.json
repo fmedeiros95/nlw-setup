@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Habits",
-    "slug": "habits-mobile",
+    "slug": "habits",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dbb60260-6721-4648-ae81-8fafaf6fc4b9"
+      }
+    },
+    "owner": "fmedeiros95"
   }
 }
