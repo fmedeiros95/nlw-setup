@@ -12,6 +12,6 @@ app.register(cors);
 app.register(appRoutes);
 
 // Start server
-app.listen({ port: Number(process.env.PORT) || 3000 }).then((address) => {
+app.listen({ port: Number(process.env.PORT) || 3333 }).then((address) => {
 	console.log(`Server listening on ${address}`);
 });
